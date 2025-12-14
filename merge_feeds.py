@@ -15,7 +15,9 @@ FEEDS = [
     "https://www.theguardian.com/uk/commentisfree/rss",
     "https://www.theguardian.com/international/rss",
     "https://feeds.guardian.co.uk/theguardian/world/rss",
-    "https://www.theguardian.com/us/commentisfree/rss"
+    "https://www.theguardian.com/us/commentisfree/rss",
+
+"http://www.guardian.co.uk/weekly/rss"
 ]
 
 OUTPUT = "merged.xml"
