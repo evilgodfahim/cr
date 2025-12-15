@@ -44,7 +44,14 @@ BLOCKED_PATHS = (
 "/affiliate/","/partner-content/",
 "/australia-culture/","/us-culture/","/uk-culture/","/europe-culture/",
 "/cities/","/local-life/",
-"/media/","/technology/games/","/technology/apps/"
+"/media/","/technology/games/","/technology/apps/","/rugby-union/",
+"/us-sports/",
+"/tv-and-radio/",
+"/love-and-sex/",
+"/health-and-fitness/",
+"/women/",
+"/men/",
+"/money/" 
 )
 
 def is_blocked(link):
