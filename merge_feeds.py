@@ -27,8 +27,24 @@ CUTOFF = datetime.now(timezone.utc) - timedelta(hours=48)
 BLOCKED_PATHS = (
     "/sport/",
     "/entertainment/",
-    "/culture/","/food/","/music/","/tv-and-tadio/","/lifeandstyle/","/stage/","/film/","/artanddesign/","/fashion/","/books/","/football/","/media/","/travel/","/society/","/uk-news/","/australia-news/","/television/"
-
+    "/culture/","/food/","/music/","/tv-and-tadio/","/lifeandstyle/","/stage/","/film/","/artanddesign/","/fashion/","/books/","/football/","/media/","/travel/","/society/","/uk-news/","/australia-news/","/television/","/culture/","/film/","/music/","/tv-and-radio/","/television/","/stage/",
+"/theatre/","/artanddesign/","/books/","/games/","/classical/","/opera/",
+"/dance/","/photography/","/design/","/architecture/","/comedy/","/radio/",
+"/lifeandstyle/","/fashion/","/food/","/recipes/","/drink/","/travel/",
+"/holidays/","/home/","/home-and-garden/","/interiors/","/gardening/",
+"/family/","/relationships/","/sex/","/dating/","/health/","/fitness/",
+"/wellbeing/","/beauty/","/shopping/","/consumer/","/money/saving",
+"/sport/","/football/","/cricket/","/tennis/","/rugby/","/formula-one/",
+"/f1/","/golf/","/cycling/","/boxing/","/mma/","/motorsport/",
+"/athletics/","/olympics/",
+"/crosswords/","/cryptic/","/quick/","/quizzes/","/puzzles/","/games/",
+"/brain-teasers/",
+"/video/","/podcasts/","/audio/","/gallery/","/picture/",
+"/paid-content/","/guardian-labs/","/advertiser-content/","/sponsored/",
+"/affiliate/","/partner-content/",
+"/australia-culture/","/us-culture/","/uk-culture/","/europe-culture/",
+"/cities/","/local-life/",
+"/media/","/technology/games/","/technology/apps/"
 )
 
 def is_blocked(link):
