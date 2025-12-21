@@ -8,15 +8,8 @@ from dateutil import parser as dateparser
 from lxml import etree
 
 FEEDS = [
-    "https://feeds.guardian.co.uk/theguardian/environment/rss",
-    "https://feeds.guardian.co.uk/theguardian/environment/rss",
-    "https://www.theguardian.com/environment/climate-crisis/rss",
-    "https://www.theguardian.com/news/series/the-long-read/rss",
-    "https://www.theguardian.com/uk/commentisfree/rss",
-    "https://www.theguardian.com/international/rss",
-    "https://feeds.guardian.co.uk/theguardian/world/rss",
-    "https://www.theguardian.com/us/commentisfree/rss",
-"http://www.guardian.co.uk/weekly/rss"
+    "https://tass.com/rss/v2.xml",
+    "https://www.scmp.com/rss/91/feed"
 ]
 
 OUTPUT = "merged.xml"
